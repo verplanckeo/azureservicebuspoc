@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "AzureServiceBus.FacebookHandler": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AZURE_CLIENT_SECRET": "hdKz10_paq2PHoqFAKmKj96IG_8T3d~e-F",
+        "AZURE_CLIENT_ID": "44cf4f6d-1949-4113-aa7e-25157589f48a",
+        "AZURE_TENANT_ID": "77bc5fea-91ad-44f3-aa53-0ed9c68c5a38"
+      }
+    }
+  }
+}

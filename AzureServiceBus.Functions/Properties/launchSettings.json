@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "AzureServiceBus.Functions": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AZURE_CLIENT_SECRET": ".gEsq-5.38mb9~lixQn8t1G3pP8k8-a-ig",
+        "AZURE_CLIENT_ID": "44cf4f6d-1949-4113-aa7e-25157589f48a",
+        "AZURE_TENANT_ID": "77bc5fea-91ad-44f3-aa53-0ed9c68c5a38"
+      }
+    }
+  }
+}

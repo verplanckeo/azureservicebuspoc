@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBusPoc.Publisher", "AzureServiceBusPoc\AzureServiceBusPoc.Publisher.csproj", "{8A34BBBD-BD18-4A61-A8EE-8F001834BD85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBus.Infrastructure", "AzureServiceBus.Infrastructure\AzureServiceBus.Infrastructure.csproj", "{B40A6CD2-D59C-4C61-810D-45B92B6FE6FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBus.Messaging", "AzureServiceBus.Messaging\AzureServiceBus.Messaging.csproj", "{25927EB0-99BA-4377-B638-895850B6D757}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBus.FacebookHandler", "AzureServiceBus.FacebookHandler\AzureServiceBus.FacebookHandler.csproj", "{E0D7252D-4AAE-40C4-B8B5-A932F90A1F52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServiceBus.GoogleHandler", "AzureServiceBus.GoogleHandler\AzureServiceBus.GoogleHandler.csproj", "{8FD43BAC-A4C5-42FF-825C-469EE9077796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBus.Functions", "AzureServiceBus.Functions\AzureServiceBus.Functions.csproj", "{540E051A-F460-4981-ACF1-85C151ACF155}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A34BBBD-BD18-4A61-A8EE-8F001834BD85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A34BBBD-BD18-4A61-A8EE-8F001834BD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A34BBBD-BD18-4A61-A8EE-8F001834BD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A34BBBD-BD18-4A61-A8EE-8F001834BD85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40A6CD2-D59C-4C61-810D-45B92B6FE6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40A6CD2-D59C-4C61-810D-45B92B6FE6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40A6CD2-D59C-4C61-810D-45B92B6FE6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40A6CD2-D59C-4C61-810D-45B92B6FE6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25927EB0-99BA-4377-B638-895850B6D757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25927EB0-99BA-4377-B638-895850B6D757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25927EB0-99BA-4377-B638-895850B6D757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25927EB0-99BA-4377-B638-895850B6D757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D7252D-4AAE-40C4-B8B5-A932F90A1F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D7252D-4AAE-40C4-B8B5-A932F90A1F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D7252D-4AAE-40C4-B8B5-A932F90A1F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D7252D-4AAE-40C4-B8B5-A932F90A1F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD43BAC-A4C5-42FF-825C-469EE9077796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD43BAC-A4C5-42FF-825C-469EE9077796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD43BAC-A4C5-42FF-825C-469EE9077796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD43BAC-A4C5-42FF-825C-469EE9077796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540E051A-F460-4981-ACF1-85C151ACF155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540E051A-F460-4981-ACF1-85C151ACF155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540E051A-F460-4981-ACF1-85C151ACF155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540E051A-F460-4981-ACF1-85C151ACF155}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95B3ED87-8DC7-4033-889B-E8C95F7BBF16}
+	EndGlobalSection
+EndGlobal
